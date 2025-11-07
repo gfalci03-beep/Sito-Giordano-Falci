@@ -1,1 +1,0 @@
-alert("Questo è un sito creato per scopi didattici, creato con ironia. Perfavore non denunciatemi :D")
