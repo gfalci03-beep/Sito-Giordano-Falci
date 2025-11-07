@@ -1,0 +1,1 @@
+alert("Questo sito è stato creato a scopo educativo, perfavore non denunciatemi :D")
