@@ -1,0 +1,181 @@
+/* ! Base Style */
+body{font-family:  'Inter', sans-serif;font-size: 16px;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5, p{color: #000; padding-bottom: 30px;}
+
+p{line-height: 20px;color: #666; font-weight: 300;}
+
+.big-text{font-size: 70px; font-weight: 900;}
+.med-text{font-size: 40px; line-height:40px}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+.intro-text{text-transform: uppercase;font-size: 20px;font-weight: bold;}
+.button{padding: 18px 28px; background: #316bff; color:#FFF; display: inline-block; border-radius: 7px;}
+
+
+
+
+
+/* ! PAGINA HOME */
+ 
+
+.LogoHome{ 
+    position:absolute; top:830px;
+    height:150px;  width:100%;  
+    background: linear-gradient(0deg, rgba(0,0,0,0),rgba(0,0,0,0)), 
+        url('logo.png') no-repeat center;
+    background-size: center;
+    z-index: 1;
+}
+
+.FotoPiane{ 
+    position:absolute;
+    height:800px; width:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0),rgba(0,0,0,0)), 
+        url('foto-piane.jpg') no-repeat center;
+    background-size: center;
+    z-index: 1;
+}
+
+.FotoHomeEsterna{
+    position:absolute; top:1500px; 
+    height: 500px; width:100%;
+    display:flex;
+    background:
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4NcsNRzQQLuESGKAonBeqJNZWguy4XJeOvw&s) no-repeat center;
+    background-size: contain;
+    z-index: 1;
+}
+
+.BottoneAttrezzi{
+    position:absolute; top:870px; left:450px;
+    width:auto;
+    display:inline-block;
+    background: rgb(243, 243, 9); padding:20px;
+    z-index: 1;
+}
+
+.BottoneCardio{
+    position:absolute; top:870px; left:1300px;
+    width:auto;
+    display:inline-block;
+    background: rgb(243, 243, 9); padding:20px;
+    z-index: 1;
+}
+
+.titolo1{
+    position:absolute; left:100px; top:1030px; 
+    color:blue;
+}
+
+.paragrafo1{
+    position:absolute; left:100px; top:1170px; 
+    color: black;
+}
+
+.titolo2{
+    position:absolute; left:800px; top:1030px; 
+    color:blue;
+}
+
+.paragrafo2{
+    position:absolute; left:800px; top:1170px; 
+    color:black;
+}
+
+.titolo3{
+    position:absolute; left:1300px; top:1030px; 
+    color:blue;
+}
+
+.paragrafo3{
+    position:absolute; left:1300px; top:1170px; 
+    color:black;
+}
+
+
+
+
+
+
+/* ! PAGINA CARDIO */
+
+.FotoCardio{ 
+    position:absolute; top:50px; left:1300px;
+    height: 700px; width:100%;
+    display:flex;
+    background:
+        url('foto-cardio.jpg') no-repeat;
+    background-size: contain;
+}
+
+.FotoCardioEsterna{
+    position:absolute; top:50px; left:100px;
+    height: 600px; width:0%;
+    display:flex;
+    background:
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WsGMABMXzRH8gznxC-b5_PRDWrneIfHHEg&s) no-repeat;
+    background-size: contain;
+}
+
+.BottoneHomeCardio{
+    position:absolute; top:50px; left:50%; transform:translateX(-50%);
+    display:inline-block;
+    background: rgb(243, 243, 9); padding:20px;
+    z-index: 1;
+}
+
+.TitoloCardio{
+    position:absolute; top:130px; left:50%; transform:translateX(-50%); 
+    color:blue;
+}
+
+.ParagrafoCardio{
+    position:absolute; top:270px; left:50%; transform:translateX(-50%); 
+    color:black;
+}
+
+
+
+
+
+
+/* ! PAGINA ATTREZZI */
+
+.FotoPanche{ 
+    position:absolute; top:50px; left:1300px;
+    height:700px; width:100%;
+    display:flex;
+    background:
+        url('foto-panche.jpg') no-repeat;
+    background-size: contain;
+}
+
+.FotoAttrezziEsterna{
+    position:absolute; top:50px; left:100px;
+    height:700px; width:100%;
+    display:flex;
+    background:
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1eKpKQ8PiYYUnhbZyzin12AOCc3BvQrhjBQ&s) no-repeat;
+    background-size: contain
+}
+
+.BottoneHomeAttrezzi{
+    position:absolute; top:50px; left:50%; transform:translateX(-50%);
+    display:inline-block;
+    background: rgb(243, 243, 9); padding:20px;
+    z-index: 1;
+}
+
+.TitoloAttrezzi{
+    position:absolute; top:130px; left:50%; transform:translateX(-50%); 
+    color:blue;
+}
+
+.ParagrafoAttrezzi{
+    position:absolute; top:270px; left:50%; transform:translateX(-50%); 
+    color:black;
+}
